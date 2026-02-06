@@ -27,7 +27,7 @@ noButton.addEventListener("click", function () {
 });
 
 function handleYesClick() {
-  titleElement.innerHTML = "YES!!!! DADALA AKO NG BEER AND PIZZA AT PASIG HOUSE 14 OR 15";
+  titleElement.innerHTML = "THERE'S A POSSIBILITY!!!!";
   buttonsContainer.classList.add("hidden");
   changeImage("yes");
 }
@@ -44,10 +44,10 @@ function generateMessage(noCount) {
   const messages = [
     "No",
     "Are you sure?",
-    "Elize please",
-    "Sige na plssss",
-    "PLS PAYAG KA NA PLSSSS",
-    "YES LANG ANG ANSWER!",
+    "pls i will step in the light for you",
+    "Come on loca",
+    "im becoming depressed bella",
+    "vOLTURI, she's gone",,
   ];
 
   const messageIndex = Math.min(noCount, messages.length - 1);
